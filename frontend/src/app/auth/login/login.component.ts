@@ -23,6 +23,11 @@ export class LoginComponent {
     this.authService.login(this.username, this.password).subscribe((response: any) => {
       localStorage.setItem('token', response.token);
       this.router.navigate(['/chat']);
-    });
+    },
+      error => {
+        console.error('Login failed', error);
+      }
+    );
+
   }
 }
