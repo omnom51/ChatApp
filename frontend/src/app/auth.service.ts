@@ -30,7 +30,7 @@ export class AuthService {
     return token != null && !this.jwtHelper.isTokenExpired(token);
   }
 
-  getToken() {
-    return localStorage.getItem('token');
+  getToken(): string {
+    return localStorage.getItem('token') ?? '';
   }
 }

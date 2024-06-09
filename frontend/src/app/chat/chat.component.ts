@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ChatService } from './chat.service';
 import { AuthService } from '../auth.service';
 import { CommonModule } from '@angular/common';
@@ -18,10 +19,21 @@ export class ChatComponent implements OnInit {
   content: string = '';
   username: string = '';
 
-  constructor(private chatService: ChatService, private authService: AuthService) {}
+  constructor(
+    private chatService: ChatService,
+    private authService: AuthService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
-    this.username = this.authService.getToken();
+    const token = this.authService.getToken();
+    if (!token) {
+      console.error('Token not found, redirecting to login');
+      this.router.navigate(['/login']);
+      return;
+    }
+
+    this.username = token;
     this.chatService.connect();
     this.chatService.getMessages().subscribe((message: any) => {
       this.messages.push(JSON.parse(message));
