@@ -1,0 +1,16 @@
+<div class="chat-container">
+  <div class="chat-sidebar">
+    <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+  </div>
+  <div class="chat-main">
+    <div class="messages">
+      <div *ngFor="let message of messages">
+        <b>{{ message.sender.username }}:</b> {{ message.content }}
+      </div>
+    </div>
+    <div class="input-container">
+      <input matInput [(ngModel)]="content" placeholder="Type a message">
+      <button mat-raised-button color="primary" (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+</div>
