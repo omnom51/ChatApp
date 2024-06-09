@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19cdeff6-a8b0-4779-97ba-e74c6cac766f" name="Changes" comment="Initial commit" />
+    <list default="true" id="19cdeff6-a8b0-4779-97ba-e74c6cac766f" name="Changes" comment="Initial commit">
+      <changelist_data name="omnom51" email="angied51121@gmail.com" date="1717889927000" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +65,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.25862068",
     "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,6 +106,7 @@
       <workItem from="1717864865442" duration="1528000" />
       <workItem from="1717884588662" duration="1828000" />
       <workItem from="1717888985914" duration="913000" />
+      <workItem from="1717897375748" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
