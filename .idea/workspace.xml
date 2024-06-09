@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19cdeff6-a8b0-4779-97ba-e74c6cac766f" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ChatAppApplication.executor": "Run",
-    "git-widget-placeholder": "Angular",
+    "git-widget-placeholder": "#5 on Angular",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -107,6 +105,7 @@
       <workItem from="1717864865442" duration="1528000" />
       <workItem from="1717884588662" duration="1828000" />
       <workItem from="1717888985914" duration="1803000" />
+      <workItem from="1717891900308" duration="1521000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
