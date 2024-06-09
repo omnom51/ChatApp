@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19cdeff6-a8b0-4779-97ba-e74c6cac766f" name="Changes" comment="Initial commit">
-      <changelist_data name="omnom51" email="angied51121@gmail.com" date="1717889927000" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +22,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -105,8 +107,8 @@
       <updated>1717864864290</updated>
       <workItem from="1717864865442" duration="1528000" />
       <workItem from="1717884588662" duration="1828000" />
-      <workItem from="1717888985914" duration="913000" />
-      <workItem from="1717897375748" duration="615000" />
+      <workItem from="1717888985914" duration="1803000" />
+      <workItem from="1717891900308" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
