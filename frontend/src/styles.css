@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2196f3; /* niebieskie tło */
+}
+
+.login-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff; /* biała ramka */
+  border-radius: 10px; /* obłe rogi */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* cień */
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container form button {
+  margin-top: 20px;
+}
