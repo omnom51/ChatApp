@@ -14,7 +14,7 @@
 
 - **System operacyjny**: Windows, macOS, Linux
 - **Node.js**
-- **MongoDB**
+- **MySQL**
 
 
 ## Wsparcie
